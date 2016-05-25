@@ -230,34 +230,35 @@ function create_config( )
     "Leave_Ban",
 	"Supergroup",
 	"Whitelist",
-	"Msg_Checks"
+	"Msg_Checks",
+        "Abjad",
+        "Add_Plugin",
+        "Arz",
+        "Azan",
+        "Cpu",
+        "Photo",
+        "Sticker",
+        "Info",
+        "Plugins",
+        "Remove_Plugin",
+        "Welcome",
+        "Webshot",
+        "Dictionary",
+        "Fantasy_Writer",
+        "Get_Plugins"
     },
     sudo_users = {175636120},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
+    about_text = [[This Is Signal
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/SEEDTEAM/TeleSeed
+Open source soon...
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+@ThisIsPouria [Founder]
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@Signal_ch
 
-Our website 
-http://teleseed.seedteam.org/
 ]],
     help_text_realm = [[
 Realm Commands:
