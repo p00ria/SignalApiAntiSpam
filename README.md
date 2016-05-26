@@ -27,11 +27,6 @@ cd shadow-tg
 
 
 
-**برای اینکه بات روی حالت سلف بات راه اندازی بشه،از دستور زیر استفاده کنید:**
-
-``./selfbot.sh``
-
-
 # Auto Launch Bot With :
 
 **./autolaunch.sh**
