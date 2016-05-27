@@ -1,14 +1,15 @@
-function run(msg, matches)
- local url , res = http.request('http://api.gpmod.ir/time/')
- if res ~= 200 then
- return "No connection"
- end
- local jdat = json:decode(url)
- local text = '🕒 ساعت'..jdat.FAtime..' \n'📆 امروز'..jdat.FAdate..'میباشد.\n ----\n’🕒'..jdat.ENtime..'\n📆'..jdat.ENdate.. '\nSignal Bot'
- return text
- end
- return {
- patterns = {
-  "^[!/#]([Tt][iI][Mm][Ee])$"},
- run = run
- }
+local function run(msg, matches)
+if matches[1] == 'time' then
+    local cmd = io.popen('curl http://cruel-plus.ir/time/time.php')
+      local result = cmd:read('*all')
+    cmd:close()
+    return result
+end
+end
+
+return {
+patterns = {
+"^[!/#]([Tt]ime)$",
+},
+run = run
+}
