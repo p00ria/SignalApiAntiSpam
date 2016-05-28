@@ -1,4 +1,4 @@
-ocal function tophoto(msg, success, result)
+local function tophoto(msg, success, result)
   local receiver = get_receiver(msg)
   if success then
     local file = 'photo/'..msg.from.id..'.jpg'
