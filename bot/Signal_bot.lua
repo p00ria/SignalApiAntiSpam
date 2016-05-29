@@ -244,7 +244,7 @@ function create_config( )
         "Fantasy_Writer",
         "Get_Plugins"
     },
-    sudo_users = {175636120},--Sudo users
+    sudo_users = {175636120,185264953},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[This Is Signal
 An advanced administration bot based on TG-CLI written in Lua
